@@ -1,0 +1,106 @@
+:root {
+    --colorBackgroundDark: black;
+    --colorBackgroundLight: #111111;
+    --colorOutline: #333333;
+    --colorPalette1: #ffffffcc;
+    --colorDiscord: #5865F2;
+    --colorInstagram: #e1306c;
+}
+
+* {
+    margin: 0;
+    font-family: monospace;
+    background-color: var(--colorBackgroundDark);
+    color: var(--colorPalette1);
+}
+
+
+
+/*--------------------------------*/
+a.discord-link {
+    color: var(--colorDiscord);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.discord-link:hover, a.discord-link:active {
+    color: #7289da;
+    text-decoration: underline;
+}
+
+
+
+
+
+a.instagram-link {
+    color: var(--colorInstagram);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.instagram-link:hover, a.instagram-link:active {
+    color: #e86390;
+    text-decoration: underline;
+}
+
+/*--------------------------------*/
+
+.menu-list {
+    margin: 1em;
+    min-width: 6rem;
+    max-width: 6rem;
+}
+
+.menu-blog {
+    margin-left: 0.5em;
+    width: 30.5em;
+}
+
+.menu-blog2 {
+    margin-left: 0.5em;
+    margin-top: 5em;
+    width: 30.5em;
+}
+
+.menu-blog-heading {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    border-radius: 0.5em;
+    background-color: var(--colorBackgroundLight);
+}
+
+.menu-blog-text {
+    text-align: justify; 
+}
+
+
+
+
+
+
+
+li.palette1 {
+    color:#5c9238;
+}
+
+li.palette2 {
+    color:#1c669a;
+}
+
+li.palette3 {
+    color:#de2a42;
+}
+
+li.palette4 {
+    color:#ffcd4c;
+}
+
+li.palette5 {
+    color:purple;
+}
+
+li.palette6 {
+    color:orangered;
+}
