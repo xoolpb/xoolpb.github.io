@@ -43,6 +43,16 @@ a.instagram-link:hover, a.instagram-link:active {
     text-decoration: underline;
 }
 
+a {
+    color: #ffc0cb;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ffd4db;
+    text-decoration: underline;
+}
+
 /*--------------------------------*/
 
 .menu-list {
@@ -53,12 +63,6 @@ a.instagram-link:hover, a.instagram-link:active {
 
 .menu-blog {
     margin-left: 0.5em;
-    width: 30.5em;
-}
-
-.menu-blog2 {
-    margin-left: 0.5em;
-    margin-top: 5em;
     width: 30.5em;
 }
 
@@ -75,6 +79,32 @@ a.instagram-link:hover, a.instagram-link:active {
     text-align: justify; 
 }
 
+.white {
+    color: #fff;
+}
+
+
+
+.menu-blog2 {
+    margin-left: 0.5em;
+    margin-top: 5em;
+    width: 30.5em;
+}
+
+.menu-blog2-position-margin {
+    margin-top: 1em;
+}
+
+.menu-blog2-heading {
+    margin-top: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-blog2-list {
+    list-style-type: none;
+    
+}
 
 
 
